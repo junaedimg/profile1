@@ -1,0 +1,166 @@
+/* selector sementara */
+
+
+/* header,
+content,
+footer {
+  border-bottom: 2px dotted blue;
+} */
+
+/* * {
+  border: 1px solid black;
+} */
+
+/* Global > Element */
+
+body {
+  margin: 0;
+  background-color: darkgrey;
+  background-image: url(../image/pattterns/pink-flowers.png);
+  background-size: 50%;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 9px 0px;
+}
+
+p {
+  margin: 2px 0px;
+  text-align: left;
+  font-size: 13px;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* my content > class |id | Element Custom */
+/* containter semua element */
+
+.mainContainer {
+  box-sizing: border-box;
+  width: 88%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+@media only screen and (min-width: 820px) {
+  .mainContainer {
+    width: 85%;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+/* header > */
+header {
+  padding: 20px 20px 10px;
+}
+
+/* navbar */
+header nav {
+  /* border: 2px solid red; */
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+header nav ul {
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin: 0 9px 5px 0;
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: salmon;
+}
+
+header nav li:hover{
+  background-color: lightblue;
+}
+
+header nav li a {
+  padding: 06px;
+  text-decoration: none;
+  color: black;
+}
+
+/* content */
+/* di dalam content berisi
+main dan aside */
+
+.content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* main */
+
+main {
+  float: left;
+  width: 75%;
+  box-sizing: border-box;
+  padding: 15px;
+  /* border-right: 1px solid black; */
+}
+
+main img {
+  width: 100%;
+}
+
+main p{
+  text-align: justify;
+  text-indent: 30px;
+}
+
+ul{
+  list-style:none;
+}
+
+main a{
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+main a:visited{
+  color: red;
+  font-weight: 300;
+}
+
+
+/* aside */
+aside {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+aside img {
+
+  display: block;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 90%;
+  margin: auto;
+}
+
