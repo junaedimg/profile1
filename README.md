@@ -1,2 +1,2 @@
 # profile1
-membuat web profile pertama, panduan dari webprogramingumpas
+membuat web profile pertama, panduan dari webprogrammingunpas
